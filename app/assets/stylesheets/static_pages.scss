@@ -2,6 +2,30 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* Format */
+nav ul li {
+	display: inline-block;
+	padding: 20px 10px 20px;
+}
+
+body img {
+	width: 30%;
+}
+
+
+/* Typology */
 h1, h2 {
+	color: #20bcee;
+}
+body {
+	background-color: #2f2f30;
+}
+body p {
+	color: white;
+}
+nav li {
+	color: #20bcee;
+}
+footer {
 	color: #20bcee;
 }
