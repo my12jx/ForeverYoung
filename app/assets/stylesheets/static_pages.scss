@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 /* Format */
+
 nav ul li {
 	display: inline-block;
 	padding: 20px 10px 20px;
@@ -11,9 +12,13 @@ nav ul li {
 body img {
 	width: 30%;
 }
+body {
+	padding-top: 100px;
+}
 
 
 /* Typology */
+
 h1, h2 {
 	color: #20bcee;
 }
@@ -28,4 +33,28 @@ nav li {
 }
 footer {
 	color: #20bcee;
+}
+
+.navbar-collapse ul li a span {
+	color: #20bcee;
+}
+.foreveryoung a {
+	color: #20bcee;
+	text-transform: uppercase;
+}
+.foreveryoung a:hover {
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+.nav ul li a {
+	text-transform: uppercase;
+	color: #20bcee;
+	letter-spacing: 0.05em;
+}
+.nav a:hover {
+	background-color: #2f2f30;
+	color: white;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
 }
